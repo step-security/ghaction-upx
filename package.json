@@ -1,0 +1,48 @@
+{
+  "name": "upx-github-action",
+  "description": "GitHub Action for UPX, the Ultimate Packer for eXecutables",
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "ncc build src/main.ts --source-map --minify --license licenses.txt",
+    "lint": "eslint --max-warnings=0 .",
+    "format": "eslint --fix .",
+    "test": "vitest run",
+    "all": "yarn run build && yarn run format && yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-security/ghaction-upx.git"
+  },
+  "keywords": [
+    "actions",
+    "upx"
+  ],
+  "author": "step-security",
+  "license": "MIT",
+  "packageManager": "yarn@4.12.0",
+  "dependencies": {
+    "@actions/core": "^3.0.0",
+    "@actions/exec": "^3.0.0",
+    "@actions/http-client": "^4.0.0",
+    "@actions/tool-cache": "^4.0.0",
+    "axios": "1.13.6",
+    "glob": "^13.0.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.3",
+    "@types/node": "^24.11.0",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "@vercel/ncc": "^0.38.4",
+    "@vitest/coverage-v8": "^4.0.18",
+    "@vitest/eslint-plugin": "^1.6.9",
+    "eslint": "^9.39.3",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "globals": "^17.3.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}

@@ -1,0 +1,75 @@
+name: ci
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+
+jobs:
+  ci:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: ${{ github.actor == 'dependabot[bot]' && fromJson('["ubuntu-latest"]') || fromJson('["ubuntu-latest", "windows-latest"]') }}
+        version:
+          - latest
+          - v3.95
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      -
+        name: Download files
+        shell: bash
+        run: |
+          mkdir ./bin
+          if [ "${{ matrix.os }}" = "windows-latest" ]; then
+            curl -sSLk https://github.com/crazy-max/firefox-history-merger/releases/download/2.4.0/firefox-history-merger-windows-4.0-386.exe -o ./bin/firefox-history-merger-windows-4.0-386.exe
+            curl -sSLk https://github.com/crazy-max/firefox-history-merger/releases/download/2.4.0/firefox-history-merger-windows-4.0-amd64.exe -o ./bin/firefox-history-merger-windows-4.0-amd64.exe
+          else
+            curl -sSLk https://github.com/crazy-max/firefox-history-merger/releases/download/2.4.0/firefox-history-merger-linux-386 -o ./bin/firefox-history-merger-linux-386
+            curl -sSLk https://github.com/crazy-max/firefox-history-merger/releases/download/2.4.0/firefox-history-merger-linux-amd64 -o ./bin/firefox-history-merger-linux-amd64
+          fi
+          chmod +x ./bin/firefox-history-merger*
+      -
+        name: UPX
+        uses: ./
+        with:
+          version: ${{ matrix.version }}
+          files: |
+            ./bin/firefox-history-merger*
+          args: -fq
+
+  install-only:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: ${{ github.actor == 'dependabot[bot]' && fromJson('["ubuntu-latest"]') || fromJson('["ubuntu-latest", "windows-latest"]') }}
+        version:
+          - latest
+          - v4.0.2
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      -
+        name: UPX
+        uses: ./
+        with:
+          version: ${{ matrix.version }}
+          install-only: true
+      -
+        name: Verify
+        run: |
+          which upx
+          upx --version
