@@ -25,6 +25,11 @@ on:
         required: false
         type: string
         default: "yarn build"
+      yarn_version:
+        description: "Specify Yarn version"
+        required: false
+        type: string
+        default: "4.12.0"
 
   pull_request:
     types: [opened, synchronize, labeled]
@@ -47,3 +52,4 @@ jobs:
       node_version: "${{ inputs.node_version || '24' }}"
       script: "${{ inputs.script || 'yarn build' }}"
       package_manager: ${{ inputs.package_manager || 'yarn' }}
+      yarn_version: "${{ inputs.yarn_version || '4.12.0' }}"
