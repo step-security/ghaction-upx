@@ -1,0 +1,18 @@
+{
+   "schema_version": "1",
+   "onboarding_type": "copied",
+   "archived": false,
+   "maintained_action_name": "step-security/ghaction-upx",
+   "upstream_full_repo_name": "crazy-max/ghaction-upx",
+   "action_type": "node",
+   "last_release": {
+     "tag_name": "v4.0.0",
+     "created_at": "2026-04-08T17:13:58Z",
+     "published_at": "2026-04-09T20:45:15Z"
+   },
+   "sync": {
+     "ignore_presets": [
+       "defaults_v1"
+     ]
+   }
+ }
