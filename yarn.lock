@@ -325,7 +325,6 @@ __metadata:
 "@rolldown/binding-android-arm-eabi@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-android-arm-eabi@npm:1.2.7"
-  checksum: 10/302549d43146d9faec1aeee8fd9fa097c185b1061a2805afbcdf13ea4d64f3385a07629a728f775212c6c3bc105c1cc5b2e7c8cc014aff74431e42c359a9aa6a
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
@@ -333,7 +332,6 @@ __metadata:
 "@rolldown/binding-android-arm64@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-android-arm64@npm:1.2.7"
-  checksum: 10/604893fed1f07a486cae56852ce8b7088820d2cf32da77093d9be0684100e03f263f2c313d7f28cc2816efea19909b4f053f172e27c84aca16e445f5186acd59
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
@@ -341,7 +339,6 @@ __metadata:
 "@rolldown/binding-darwin-arm64@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-darwin-arm64@npm:1.2.7"
-  checksum: 10/9fe06da884b39707e7ee2ef106624dd48187fd3f0e84918465d243fc72e2ca2794eb4b0ff3624ba6fbd1f6aed2a3dda24548566aed9ef90844212bd2d7da6a1a
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
@@ -349,7 +346,6 @@ __metadata:
 "@rolldown/binding-darwin-x64@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-darwin-x64@npm:1.2.7"
-  checksum: 10/557eeba73facb050272068dda50171ac1ae73140433896503a194bebf539ffb828dcb598c76dc289c4493791b4bfdd23ef71d4e7d0be89d173d4f4f2b146030c
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
@@ -357,7 +353,6 @@ __metadata:
 "@rolldown/binding-freebsd-x64@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-freebsd-x64@npm:1.2.7"
-  checksum: 10/f82cdec8b2040f55062a38d66486f6873332852b00c8e68360b3ba3fd39b106dd7cccb618894748717a89f5d8a246fa6ef64c255c64955e34b66d3b6c23e20b5
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
@@ -365,7 +360,6 @@ __metadata:
 "@rolldown/binding-linux-arm-gnueabihf@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-linux-arm-gnueabihf@npm:1.2.7"
-  checksum: 10/7c14afeeb11bd993ad5c8529abd52c6734b6228215bddb8181359d371553a610cdfdcf6590622323229f0723fbf51187b32220523889b8d2851a0390a85ee8ed
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
@@ -373,7 +367,6 @@ __metadata:
 "@rolldown/binding-linux-arm64-gnu@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-linux-arm64-gnu@npm:1.2.7"
-  checksum: 10/6c595c2de224ce392b362adfc3ee8b599e31106618fcb4d08777092052da3fba716468b0868be874f8dc7189b0bd52dad40fe8aa6d1c9540f5dc0c0259afb738
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
@@ -381,7 +374,6 @@ __metadata:
 "@rolldown/binding-linux-arm64-musl@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-linux-arm64-musl@npm:1.2.7"
-  checksum: 10/c546b1a560b240f57968501da3c0ae5ec9433d614f3f5cab999b6eac99d2d9eb547b96978ff5f4873b148dfd13f3217600d4bfd992cf07d43229c426a02619cc
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
@@ -389,7 +381,6 @@ __metadata:
 "@rolldown/binding-linux-ppc64-gnu@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-linux-ppc64-gnu@npm:1.2.7"
-  checksum: 10/75646e03c56968cd7b72cd1fd4e5c6291a41aecba1a45b4226f187030b8bbec0dbc22318fa57ff5435022299ac37837eed51b849714ea160d24ff91559f9d706
   conditions: os=linux & cpu=ppc64 & libc=glibc
   languageName: node
   linkType: hard
@@ -397,7 +388,6 @@ __metadata:
 "@rolldown/binding-linux-s390x-gnu@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-linux-s390x-gnu@npm:1.2.7"
-  checksum: 10/8a05b97a53bd5e87aafec56fc5dc07f735fd9a840868d7629b73f624db1dddf8ea771496dbf73cdfb52eb8e69bb95792b44eab4151195a493616017616f6030f
   conditions: os=linux & cpu=s390x & libc=glibc
   languageName: node
   linkType: hard
@@ -405,7 +395,6 @@ __metadata:
 "@rolldown/binding-linux-x64-gnu@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-linux-x64-gnu@npm:1.2.7"
-  checksum: 10/c768c0266d5d5174a110443cd6c3c24fd9b3c0c844508895ed221f6b1de5300b28d68770c5535a998e8453cdeb78604e74b38de2f31814856a5051af14299eea
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -413,7 +402,6 @@ __metadata:
 "@rolldown/binding-linux-x64-musl@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-linux-x64-musl@npm:1.2.7"
-  checksum: 10/8ab9cadddf26a1575adeb7840a7e982065f1407184deaae6a04740f71e86f9e6ed18696cf7304f4ed6c144c272bd52bbd43db0cdc79c9cd6a242254ae82203fa
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
@@ -421,7 +409,6 @@ __metadata:
 "@rolldown/binding-openharmony-arm64@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-openharmony-arm64@npm:1.2.7"
-  checksum: 10/dd29dd3e4741830b2e48875e35162823b6b471443881812ae9df101d0febf396c02bf905e5d21b0e05f678fd7aef9e8785547c369ff889e9fcbdcc80f54cc1de
   conditions: os=openharmony & cpu=arm64
   languageName: node
   linkType: hard
@@ -429,7 +416,6 @@ __metadata:
 "@rolldown/binding-win32-arm64-msvc@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-win32-arm64-msvc@npm:1.2.7"
-  checksum: 10/8922cddcfea4248aece08f2beba046e0703295761716e37fcb888d25ed7d47f67df8c2dc054acb607edacf716a73ecde9f50e4e9866d7e2824398181832c9717
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
@@ -437,7 +423,6 @@ __metadata:
 "@rolldown/binding-win32-x64-msvc@npm:1.2.7":
   version: 1.2.7
   resolution: "@rolldown/binding-win32-x64-msvc@npm:1.2.7"
-  checksum: 10/c23765d892806ddb8a7d868207fdafa869f40c82b5073e3238641e1622678e6db986274e6f8c793201ab02ecad7e122e4d59eb77b1f161d2e0f6ddebdc5086a2
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -1443,12 +1428,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@npm:~2.3.2, fsevents@npm:~2.3.3":
+"fsevents@npm:~2.3.3":
   version: 2.3.3
   resolution: "fsevents@npm:2.3.3"
   dependencies:
     node-gyp: "npm:latest"
   checksum: 10/4c1ade961ded57cdbfbb5cac5106ec17bc8bccd62e16343c569a0ceeca83b9dfef87550b4dc5cbb89642da412b20c5071f304c8c464b80415446e8e155a038c0
+  conditions: os=darwin
+  languageName: node
+  linkType: hard
+
+"fsevents@patch:fsevents@npm%3A~2.3.3#optional!builtin<compat/fsevents>":
+  version: 2.3.3
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  dependencies:
+    node-gyp: "npm:latest"
   conditions: os=darwin
   languageName: node
   linkType: hard
@@ -1805,7 +1799,6 @@ __metadata:
 "lightningcss-android-arm64@npm:1.33.0":
   version: 1.33.0
   resolution: "lightningcss-android-arm64@npm:1.33.0"
-  checksum: 10/7baae810ecdacd21d342a7d9d19092642105393bc6eb900c765abfa30b6748633b95ff946a87c4a0da9b930f984361270cf6b4fa31bfcaa1642601fe98d00180
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
@@ -1813,7 +1806,6 @@ __metadata:
 "lightningcss-darwin-arm64@npm:1.33.0":
   version: 1.33.0
   resolution: "lightningcss-darwin-arm64@npm:1.33.0"
-  checksum: 10/ebb96f2a2bfcb9ced6d0540f1311db375380b7ef6cff58168fff1ed2dbf82037e3bc3f3cb7b726c7f2e0b7ca24ad18ee3fac13f9184ba6b9fcfb4a394f6375d6
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
@@ -1821,7 +1813,6 @@ __metadata:
 "lightningcss-darwin-x64@npm:1.33.0":
   version: 1.33.0
   resolution: "lightningcss-darwin-x64@npm:1.33.0"
-  checksum: 10/824c7c6c56b0566b3f0b7629d0979f8e8d436ca6c6ce60072015901c28cdcd7edb6e2b59ab1806f3331c2874c1d5bc8919a81076bff80ba9676fb58b03b394fe
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
@@ -1829,7 +1820,6 @@ __metadata:
 "lightningcss-freebsd-x64@npm:1.33.0":
   version: 1.33.0
   resolution: "lightningcss-freebsd-x64@npm:1.33.0"
-  checksum: 10/02363f991590d07587c4acb95982d16ffbaeadd09850eeab0383fc3a821f0173a0d241aebb44a84ad09e904b573e7dfe34d570ac8685cb1f9e8e91f854762212
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
@@ -1837,7 +1827,6 @@ __metadata:
 "lightningcss-linux-arm-gnueabihf@npm:1.33.0":
   version: 1.33.0
   resolution: "lightningcss-linux-arm-gnueabihf@npm:1.33.0"
-  checksum: 10/e0e193654a4b566a25c71a2c676003ad3572cbf418bbac3aa5969a6044823957818447844fec5f3d6d220ab19e450de01937234966fdd36dc49111d6b0f5490a
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
@@ -1845,7 +1834,6 @@ __metadata:
 "lightningcss-linux-arm64-gnu@npm:1.33.0":
   version: 1.33.0
   resolution: "lightningcss-linux-arm64-gnu@npm:1.33.0"
-  checksum: 10/e4a90b97ed1230b0a7782d8bb88c0f0fbd76f0083256d34347929ee84dbd49e7c672cd136a484a2ccf723efe8fd9c7b3e7a480f92a15c3810fb77dd26ea6a961
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
@@ -1853,7 +1841,6 @@ __metadata:
 "lightningcss-linux-arm64-musl@npm:1.33.0":
   version: 1.33.0
   resolution: "lightningcss-linux-arm64-musl@npm:1.33.0"
-  checksum: 10/178d6a5c850a1d189f54846bae5ca2e5bfc65327088fed3a2710926d6605290a4d292d3a8a824633a1da010cd0b081ed97a4c9444ff59463794944070e969f48
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
@@ -1861,7 +1848,6 @@ __metadata:
 "lightningcss-linux-x64-gnu@npm:1.33.0":
   version: 1.33.0
   resolution: "lightningcss-linux-x64-gnu@npm:1.33.0"
-  checksum: 10/f9388c8dda4b4ecbded0c7cf9db522d8d5c4b6b1a3c401648ca2353e302e8718e184f1989ec1fd4115a2d34649c4ab7dc1fbed4d6eff39669f16d1c3502ba514
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -1869,7 +1855,6 @@ __metadata:
 "lightningcss-linux-x64-musl@npm:1.33.0":
   version: 1.33.0
   resolution: "lightningcss-linux-x64-musl@npm:1.33.0"
-  checksum: 10/cf6d319780572dbeaaf4b20e91f03646da4f02aa685a608ef64947dfd484ff1e725d47b09d19276bd656a49f772a65cd1ac7b51be4ba138cf7d8945a9f65963c
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
@@ -1877,7 +1862,6 @@ __metadata:
 "lightningcss-win32-arm64-msvc@npm:1.33.0":
   version: 1.33.0
   resolution: "lightningcss-win32-arm64-msvc@npm:1.33.0"
-  checksum: 10/7b4b79ffdade793398df490683ae952293d332ab732cb778afa24a3bef1a44c4e71bc240c69da3fe5cf9a7d66dce1940358374a3677ad8656f30d89f2dd76349
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
@@ -1885,7 +1869,6 @@ __metadata:
 "lightningcss-win32-x64-msvc@npm:1.33.0":
   version: 1.33.0
   resolution: "lightningcss-win32-x64-msvc@npm:1.33.0"
-  checksum: 10/8210ae52c54a72c2df4f7a4046d5db940a4424befb9de620a42732288f7b42c3873c5347427e814bf3826b9369d9d45fe2225ad42d9aea880f17432f723922d8
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -2870,6 +2853,8 @@ __metadata:
       optional: true
     jsdom:
       optional: true
+    vite:
+      optional: false
   bin:
     vitest: vitest.mjs
   checksum: 10/3b47e169d30ee3c97c1cefeebfd9a8dccecae19f0498272d17dc5a8864f9d919574099911cd0a78cc368563d6d661ec76534edc196474eafb398f6aefe7832c2
